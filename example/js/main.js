@@ -15,7 +15,7 @@
 	{
 	
 	Tween.to(document.getElementById('box'),1,{delay:1,left:"0px",top:"0px",opacity:1});
-	Tween.to(document.getElementById('box2'),1,{left:"300px",top:"400px",width:"300px",ease:"ease-in-out"});
+	Tween.to(document.getElementById('box2'),1,{transform: "translate3d(300px,200px,0)",width:"300px",ease:"ease-in-out"});
 	}
 
 	Main();
